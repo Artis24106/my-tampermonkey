@@ -10,6 +10,8 @@
 // @grant        GM_getValue
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @icon         https://github.githubassets.com/pinned-octocat.svg
+// @updateURL    https://raw.githubusercontent.com/Artis24106/artis-tampermonkey/master/show-youtube-playing-song.js
+// @downloadURL  https://raw.githubusercontent.com/Artis24106/artis-tampermonkey/master/show-youtube-playing-song.js
 
 // ==/UserScript==
 String.prototype.format = function() {
