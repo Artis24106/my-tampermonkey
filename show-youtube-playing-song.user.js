@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Show Youtube Playing Song
 // @namespace    http://tampermonkey.net/
-// @version      0.3.1
+// @version      0.3.2
 // @description  Show the song name that you are playing in Youtube in the bottom-right corner!
 // @namespace    https://github.com/Artis24106
 // @author       Artis24106
@@ -74,7 +74,7 @@ function addCSS() {
         "#finder-container>:first-child>div:hover { border-top-left-radius: .5rem; border-top-right-radius: .5rem;}"
     );
     addGlobalStyle(
-        ".finder-li>div { display: block; border-top: solid 1px #777; padding: 5px 10px; color: white !important; text-decoration: none; font-size: .1rem !important;}"
+        ".finder-li>div { display: block; border-top: solid 1px #777; padding: 5px 10px; font-family: consolas !important; color: white !important; text-decoration: none; font-size: .1rem !important;}"
     );
     addGlobalStyle("#finder-container>:first-child>div { border-top: none }");
     addGlobalStyle(".finder-li>div:hover { background-color: #888; }");
