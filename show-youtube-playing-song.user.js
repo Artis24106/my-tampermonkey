@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Show Youtube Playing Song
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.3.1
 // @description  Show the song name that you are playing in Youtube in the bottom-right corner!
 // @namespace    https://github.com/Artis24106
 // @author       Artis24106
@@ -129,7 +129,7 @@ function getSongName() {
         tabSet.set(id, [name, 0]);
         setInterval(() => {
             (id = GM_getValue(xTabID)), (name = GM_getValue(xSongName));
-            console.log([id, name]);
+            // console.log([id, name]);
             if (!tabSet.has(id)) {
                 tabSet.set(id, name);
                 appendList(id, name);
@@ -142,7 +142,7 @@ function getSongName() {
             for (let i of tabSet.keys()) {
                 var [tmpName, tmpTTD] = tabSet.get(i);
                 if (tmpTTD <= 0) {
-                    console.log([tmpName, tmpTTD]);
+                    // console.log([tmpName, tmpTTD]);
                     tabSet.delete(i);
                     removeList(i);
                     break;
