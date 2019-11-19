@@ -8,8 +8,8 @@
 // @match        https://lab.sp88.com.tw/luckydraw/
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/Artis24106/artis-tampermonkey/master/ncugc-lottery.user.js
-// @downloadURL  https://raw.githubusercontent.com/Artis24106/artis-tampermonkey/master/ncugc-lottery.user.js
+// @updateURL    https://raw.githubusercontent.com/Artis24106/artis-tampermonkey/master/ncugc-lottery.js
+// @downloadURL  https://raw.githubusercontent.com/Artis24106/artis-tampermonkey/master/ncugc-lottery.js
 // ==/UserScript==
 
 function addGlobalStyle(css) {
