@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [NCUGC] 抽獎系統
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  抽抽抽
 // @namespace    https://github.com/Artis24106
 // @author       Artis24106
