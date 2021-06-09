@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ncueeclass bypass 視窗控制
 // @namespace    https://github.com/Artis24106
-// @version      0.1
+// @version      0.2
 // @description  bypass 視窗控制
 // @author       Artis24106
 // @match        *://ncueeclass.ncu.edu.tw/*/*
@@ -25,4 +25,4 @@ alrtScope.alert = function (str) {
     throw "H3H3";
 };
 
-window.top.document.hasFocus = () => true;
+//window.top.document.hasFocus = () => true;
