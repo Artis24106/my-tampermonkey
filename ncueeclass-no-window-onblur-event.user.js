@@ -24,3 +24,5 @@ alrtScope.alert = function (str) {
     console.log ("Greasemonkey intercepted alert: ", str);
     throw "H3H3";
 };
+
+window.top.document.hasFocus = () => true;
