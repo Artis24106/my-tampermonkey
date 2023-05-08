@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         Arcaea Online Exact PTT
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Artis24106
 // @version      0.1
 // @description  Get the exact ptt value and other information!!
 // @author       artis24106
 // @match        https://arcaea.lowiro.com/*/profile/potential
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=lowiro.com
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/Artis24106/my-tampermonkey/master/arcaea-online-exact-ptt.js
+// @downloadURL  https://raw.githubusercontent.com/Artis24106/my-tampermonkey/master/arcaea-online-exact-ptt.js
 // ==/UserScript==
 
 (function() {
